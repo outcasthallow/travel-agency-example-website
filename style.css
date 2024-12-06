@@ -1,0 +1,400 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Geologica:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+.home {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    background-color: #eff1f3;
+}
+
+.page2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    background-image: url(./greece_4.jpeg);
+    background-color: #eff1f3;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    background-image: url(./japan_4.jpeg);
+    background-color: #eff1f3;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    background-color: #eff1f3;
+}
+
+hr {
+    background-color: #223843;
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    color: #eff1f3;
+    background-color: #223843;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    justify-content: space-between;
+    
+}
+
+.headeritem {
+    text-decoration: none;
+    font-size: 16px;
+    color: #eff1f3;
+    background-color: #d77a61;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.headerright {
+    padding-top: 12px;
+    padding-right: 6px;
+}
+
+.headeritemleft {
+    text-decoration: none;
+    font-size: 16px;
+    color: #eff1f3;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    width: 225px;
+    
+}
+
+.headeritemleft2 {
+    text-decoration: none;
+    font-size: 16px;
+    color: #eff1f3;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    width: 130px;
+    
+}
+
+.headeritem:hover {
+    color:#eff1f3;
+    background-color:#223843;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.headeritemleft2:hover {
+    color:#eff1f3;
+    background-color:#d77a61;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .headeritemleft {
+    display: flex;
+    justify-content: left;
+    padding-top: 12px;
+    padding-left: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: beige;
+    width: 100px;
+}
+
+.headeritemright {
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.headerrightitems {
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
+    margin-top: -18px;
+    margin-right: 22px;
+} */
+
+
+.intro {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 20px;
+    border: 2px;
+    
+}
+
+.list {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 20px;
+    border: 2px;
+}
+
+.title1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #eff1f3;
+    padding: 10px;
+    padding-top: 10px;
+    margin-top: 23px;
+    margin-bottom: 5px;
+    height: 50px;
+    border: solid #223843;
+    border-radius: 50px;
+    background-color: #223843;
+    width: 750px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #223843;
+    padding: 10px;
+    margin-top: 23px;
+    margin-bottom: 5px;
+    height: 50px;
+    border: 5px dotted #223843;
+    border-radius: 40px;
+    width: 750px;
+    text-align: center;
+}
+
+.title3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: none;
+    color: #eff1f3;
+    padding: 10px;
+    margin-top: 23px;
+    margin-bottom: 5px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #223843;
+    width: 750px;
+    text-align: center;
+}
+
+.title3:hover {
+    color:#eff1f3;
+    background-color:#d77a61;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#myfont {
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#myfont2 {
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+#myfont3 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.text1 {
+    text-align: center;
+    color: black;
+    width: 600px;
+}
+
+.text2 {
+    text-align: center;
+    color: black;
+    width: 800px;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.text3 {
+    display: flex;
+    color: black;
+    border: 0px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-left: -10px;
+    justify-content: space-evenly;
+    width: 305px;
+}
+
+.text4 {
+    display: flex;
+    color: black;
+    border: 0px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-left: -10px;
+    justify-content: space-evenly;
+    width: 305px;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.text3heading {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    width: 1300px;
+    margin-bottom: -30px;
+    text-align: center;
+
+}
+
+.textbox1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 950px;
+    text-align: center;
+    margin-bottom: -30px;
+    margin-left: 8px;
+}
+
+.textbox2 {
+    display: flex;
+    flex-flow: row;
+    padding-top: 20px;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+
+.mainfooter {
+    display: flex;
+    flex-flow: row;
+    color: #223843;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    justify-content: space-between;
+    
+}
+
+.contactfooter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #223843;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.footeritem {
+    text-decoration: none;
+    font-size: 16px;
+    color: #eff1f3;
+    background-color: #223843;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    width: 100px;
+    
+}
+
+.footerright {
+    padding-top: 12px;
+    padding-right: 6px;
+}
+
+.footerleft {
+    padding-top: 12px;
+    padding-right: 6px;
+}
+
+.footeritemleft {
+    text-decoration: none;
+    font-size: 16px;
+    color: #eff1f3;
+    background-color: #d77a61;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    width: 125px;
+    
+}
+
+.footeritem:hover {
+    color:#eff1f3;
+    background-color:#d77a61;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footeritemright:hover {
+    color: #eff1f3;
+    background-color:#223843;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footeritemleft:hover {
+    color: #eff1f3;
+    background-color:#223843;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
